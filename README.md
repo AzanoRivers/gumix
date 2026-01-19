@@ -16,6 +16,7 @@ A minimal browser extension template for building interactive UI overlays on Pix
 ## Table of Contents
 
 - [Branch Strategy](#branch-strategy)
+- [Trust & Security](#trust--security)
 - [Overview](#overview)
 - [Architecture](#architecture)
 - [Project Structure](#project-structure)
@@ -75,6 +76,29 @@ Use Conventional Commits format for all commits:
 **Example:** `feat: add inventory management UI`
 
 **Remember:** AI is a tool, not a replacement for careful engineering. You are responsible for the quality and maintainability of the code you contribute.
+
+## Trust & Security
+
+🔒 **Code Integrity First**
+
+This project aims to improve the user experience for Pixels.xyz players and build trust within the developer community.
+
+**Before contributing, carefully review:**
+- ✅ Project structure and architecture
+- ✅ Node.js and pnpm requirements
+- ✅ All installed packages and dependencies
+- ✅ Source code for any suspicious patterns
+
+**Zero Tolerance Policy:**
+
+⚠️ **Any attempt to introduce malicious packages or code will not be tolerated.**
+
+If malicious code is discovered in any commit:
+- The commit will be immediately reverted
+- The user will be reported to GitHub
+- The user will be permanently banned from contributing
+
+We are committed to maintaining a safe, transparent, and trustworthy codebase for the Pixels.xyz community.
 
 ## Overview
 
