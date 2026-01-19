@@ -52,6 +52,20 @@ If using AI tools (GitHub Copilot, Cursor, Cline, etc.):
  */
 ```
 
+**Commit Message Convention:**
+
+Use Conventional Commits format for all commits:
+
+- `feat:` - New feature or functionality
+- `fix:` - Bug fixes
+- `docs:` - Documentation only changes
+- `refactor:` - Code changes that neither fix bugs nor add features
+- `chore:` - Maintenance tasks (dependencies, config)
+- `style:` - Code formatting (no logic changes)
+- `perf:` - Performance improvements
+
+**Example:** `feat: add inventory management UI`
+
 **Remember:** AI is a tool, not a replacement for careful engineering. You are responsible for the quality and maintainability of the code you contribute.
 
 ## Overview
