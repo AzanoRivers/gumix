@@ -1,9 +1,17 @@
 # Gumix Extension - Pixels.xyz UI Overlay Template
 
+> 🌐 **Languages:** [English](#) | [Español](./README.es.md)
+
 A minimal browser extension template for building interactive UI overlays on Pixels.xyz using WXT + React.
 
-**Created by:** [AzanoRivers](https://www.AzanoRivers.com)  
-**Project:** [PixiGummies](https://pixigummies.com/)
+[![WXT](https://img.shields.io/badge/WXT-0.20.13-blue?style=flat&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTIgMkwyIDdMMTIgMTJMMjIgN0wxMiAyWiIgZmlsbD0id2hpdGUiLz48L3N2Zz4=)](https://wxt.dev)
+[![React](https://img.shields.io/badge/React-19.2.3-61DAFB?style=flat&logo=react&logoColor=white)](https://react.dev)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.9.3-3178C6?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.1.18-38B2AC?style=flat&logo=tailwind-css&logoColor=white)](https://tailwindcss.com)
+[![License](https://img.shields.io/badge/License-MIT-green.svg?style=flat)](LICENSE)
+
+**Created by:** <a href="https://www.AzanoRivers.com" target="_blank">AzanoRivers</a>  
+**Project:** <a href="https://pixigummies.com/" target="_blank">PixiGummies</a>
 
 ## Table of Contents
 
