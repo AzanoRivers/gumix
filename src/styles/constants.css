@@ -1,0 +1,22 @@
+/* Global design variables - Colors, fonts and constants */
+
+:root {
+  /* === Typography === */
+  --font-family-sans: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  
+  /* === Brand colors === */
+  --color-primary: #54bc4a;
+  --color-primary-hover: #45a03b;
+  --color-pink: #F872C9;
+  --color-pink-shadow: rgba(248, 114, 201, 0.25);
+  
+  /* === Theme colors === */
+  --color-background: #242424;
+  --color-background-light: #ffffff;
+  --color-text: rgba(255, 255, 255, 0.87);
+  --color-text-light: #213547;
+  
+  /* === Transitions === */
+  --transition-normal: 200ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}

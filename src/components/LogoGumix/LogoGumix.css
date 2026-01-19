@@ -1,0 +1,11 @@
+/* Logo component styles */
+
+.logo-image {
+  @apply block;
+  will-change: filter;
+  transition: filter var(--transition-normal);
+}
+
+.logo-image:hover {
+  filter: drop-shadow(0 0 16px var(--color-pink-shadow));
+}
