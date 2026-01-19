@@ -16,6 +16,7 @@ Una plantilla minimalista de extensión de navegador para construir interfaces d
 ## Tabla de Contenidos
 
 - [Estrategia de Ramas](#estrategia-de-ramas)
+- [Confianza y Seguridad](#confianza-y-seguridad)
 - [Descripción General](#descripción-general)
 - [Arquitectura](#arquitectura)
 - [Estructura del Proyecto](#estructura-del-proyecto)
@@ -75,6 +76,29 @@ Usa el formato Conventional Commits para todos los commits:
 **Ejemplo:** `feat: agregar interfaz de gestión de inventario`
 
 **Recuerda:** La IA es una herramienta, no un reemplazo de la ingeniería cuidadosa. Eres responsable de la calidad y mantenibilidad del código que contribuyes.
+
+## Confianza y Seguridad
+
+🔒 **La Integridad del Código es Primero**
+
+Este proyecto busca mejorar la experiencia de usuario para los jugadores de Pixels.xyz y generar confianza dentro de la comunidad de desarrolladores.
+
+**Antes de contribuir, revisa cuidadosamente:**
+- ✅ Estructura y arquitectura del proyecto
+- ✅ Requisitos de Node.js y pnpm
+- ✅ Todos los paquetes y dependencias instaladas
+- ✅ Código fuente en busca de patrones sospechosos
+
+**Política de Tolerancia Cero:**
+
+⚠️ **No se admitirá ningún intento de introducir paquetes o código malicioso.**
+
+Si se descubre código malicioso en algún commit:
+- El commit será revertido inmediatamente
+- El usuario será reportado a GitHub
+- El usuario será permanentemente prohibido de contribuir
+
+Estamos comprometidos a mantener una base de código segura, transparente y confiable para la comunidad de Pixels.xyz.
 
 ## Descripción General
 
