@@ -1,3 +1,7 @@
+/**
+ * Content App Component - Main UI overlay rendered on Pixels.xyz
+ * @author AzanoRivers | VibeCoding with Claude Sonnet 4.5
+ */
 import { useState } from 'react';
 import { LogoGumix } from '@/components';
 

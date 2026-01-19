@@ -1,3 +1,7 @@
+/**
+ * App Component - Main popup application layout
+ * @author AzanoRivers | VibeCoding with Claude Sonnet 4.5
+ */
 import { LogoGumix } from '@/components';
 import './App.css';
 

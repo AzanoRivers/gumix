@@ -1,3 +1,7 @@
+/**
+ * LogoGumix Component - Reusable brand logo with hover effect
+ * @author AzanoRivers | VibeCoding with Claude Sonnet 4.5
+ */
 import gumixLogo from '@/assets/gumix-logo.svg';
 import './LogoGumix.css';
 

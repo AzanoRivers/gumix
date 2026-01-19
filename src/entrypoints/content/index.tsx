@@ -1,3 +1,7 @@
+/**
+ * Content Script Entry Point - Injects Gumix HUD into Pixels.xyz
+ * @author AzanoRivers | VibeCoding with Claude Sonnet 4.5
+ */
 import './style.css';
 import ReactDOM from 'react-dom/client';
 import App from './App';
