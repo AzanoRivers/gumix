@@ -23,6 +23,7 @@ A minimal browser extension template for building interactive UI overlays on Pix
 - [Getting Started](#getting-started)
 - [Development Workflow](#development-workflow)
 - [Key Features](#key-features)
+- [VS Code Setup for Tailwind IntelliSense](#vs-code-setup-for-tailwind-intellisense)
 
 ## Branch Strategy
 
@@ -204,6 +205,28 @@ webExt: {
 - ✅ **WXT framework** for extension scaffolding
 - ✅ **Modular architecture** for scalability
 - ✅ **Shared component library** across contexts
+
+## VS Code Setup for Tailwind IntelliSense
+
+To enable autocomplete for custom classes defined in `@theme`, create `.vscode/settings.json`:
+
+```json
+{
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+  "tailwindCSS.includeLanguages": {
+    "typescript": "javascript",
+    "typescriptreact": "javascript"
+  },
+  "tailwindCSS.experimental.configFile": "src/styles/global.css",
+  "files.associations": {
+    "*.css": "tailwindcss"
+  }
+}
+```
+
+After saving, restart Tailwind CSS Language Server: `Ctrl+Shift+P` → **"Tailwind CSS: Restart Tailwind CSS Language Server"**
 
 ---
 
