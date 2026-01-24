@@ -22,6 +22,7 @@ A minimal browser extension template for building interactive UI overlays on Pix
 - [Project Structure](#project-structure)
 - [Getting Started](#getting-started)
 - [Development Workflow](#development-workflow)
+- [Auto-imports (WXT)](#auto-imports-wxt)
 - [Key Features](#key-features)
 - [VS Code Setup for Tailwind IntelliSense](#vs-code-setup-for-tailwind-intellisense)
 
@@ -195,6 +196,10 @@ webExt: {
 5. **Refresh page** (F5 on Pixels.xyz)
 
 > **Note:** Use your regular Chrome profile to maintain access to other extensions like Ronin Wallet for testing authenticated features.
+
+## Auto-imports (WXT)
+
+WXT supports automatic imports for hooks, components and other symbols — see https://wxt.dev/guide/essentials/config/auto-imports?utm_source=chatgpt.com. For code clarity and to avoid "magic" behavior, this project requires explicit imports; pull requests must include explicit imports for any hooks/components used.
 
 ## Key Features
 
