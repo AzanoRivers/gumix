@@ -1,16 +1,17 @@
 /**
  * App Component - Main popup application layout
- * @author AzanoRivers | VibeCoding with Claude Sonnet 4.5
+ * @author AzanoRivers | Manually created
  */
-import { LogoGumix } from '@/components';
-import './App.css';
+import { Footer, Header } from '@/components';
 
 export function App() {
 
   return (
-    <div className="w-full h-full flex flex-col items-center justify-center p-2">
-      <LogoGumix size={64} />
-      <h1 className="text-2xl font-bold">Gumix HUD</h1>
-    </div>
+    <main className='flex justify-center items-center h-full w-full'>
+      <Header />
+      <footer className='fixed bottom-0 left-0 w-full px-2'>
+        <Footer />
+      </footer>
+    </main>
   );
 }

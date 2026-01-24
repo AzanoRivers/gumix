@@ -1,0 +1,39 @@
+@import "tailwindcss";
+@import "./constants.css";
+
+/* Dark mode variant usando selector de clase */
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+  /* Custom Tailwind 4 configuration */
+  --font-sans: var(--font-sans);
+  --font-jersey: var(--font-jersey);
+
+  /* Text shadows */
+  --text-shadow-pink-bottom: var(--text-shadow-pink-bottom);
+  --text-shadow-pink-light-bottom: var(--text-shadow-pink-light-bottom);
+
+  /* Colors in theme */
+  --color-gumpix-pink: var(--color-pink);
+  --color-gumpix-pink-light: var(--color-pink-light);
+  --color-gumpix-blue: var(--color-blue);
+  /* Background */
+  --color-background: var(--color-background);
+  --color-background-light: var(--color-background-light);
+  --color-text: var(--color-text);
+  --color-text-light: var(--color-text-light);
+}
+
+:root {
+  /* Apply dark theme by default */
+  color-scheme: light dark;
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    background-color: var(--color-background-light);
+    color: var(--color-text-light);
+  }
+}

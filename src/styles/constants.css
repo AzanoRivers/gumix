@@ -1,18 +1,34 @@
 /* Global design variables - Colors, fonts and constants */
 
+/* === Font Faces === */
+@font-face {
+  font-family: 'Jersey 10';
+  src: url('/fonts/Jersey10-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   /* === Typography === */
-  --font-family-sans: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --font-sans: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --font-jersey: 'Jersey 10', system-ui, sans-serif;
+  
+  /* === Text Shadows === */
+  --text-shadow-pink-bottom: 0 3px 4px rgba(255, 105, 208, 0.4);
+  --text-shadow-pink-light-bottom: 0 3px 4px rgba(247, 207, 234, 0.5);
   
   /* === Brand colors === */
   --color-primary: #54bc4a;
   --color-primary-hover: #45a03b;
-  --color-pink: #F872C9;
+  --color-pink: #ff69d0;
+  --color-pink-light: #f7cfea;
   --color-pink-shadow: rgba(248, 114, 201, 0.25);
+  --color-blue: #00cdfb;
   
   /* === Theme colors === */
   --color-background: #242424;
-  --color-background-light: #ffffff;
+  --color-background-light: #f7cfea;
   --color-text: rgba(255, 255, 255, 0.87);
   --color-text-light: #213547;
   
