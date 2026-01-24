@@ -1,25 +1,25 @@
+import { useEffect, useState } from 'react';
+import { useSwapTheme } from '@/hooks/useSwapTheme';
+import { useLocalStorage } from '@/hooks/useLocalStorage';
+import { LogoGumix } from '@/components';
+import { LampDeskIcon, MoonIcon } from 'lucide-react';
+enum userTheme {
+    light = 'light',
+    dark = 'dark',
+}
 /**
  * Header Component - Header layout for the extension
  * @author AzanoRivers | (Claude Sonnet 4.5)
  * @description Layout, Logic and Effects by AzanoRivers. (AI Assisted) for Shadows & css variables
  */
-
-import { useSwapTheme } from '@/hooks/useSwapTheme';
-import { LogoGumix } from '@/components';
-import { LampDeskIcon, MoonIcon } from 'lucide-react';
-
-enum userTheme {
-    light = 'light',
-    dark = 'dark',
-}
-
 export function Header() {
-
+    const [, setUserTheme,] = useLocalStorage<string>('userTheme', 'dark');
     const { swapTheme, } = useSwapTheme();
     const [themeState, setThemeState] = useState<userTheme>(userTheme.dark);
 
     useEffect(() => {
         swapTheme(themeState);
+        setUserTheme(themeState);
     }, [themeState]);
 
     return (

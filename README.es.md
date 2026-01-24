@@ -22,6 +22,7 @@ Una plantilla minimalista de extensión de navegador para construir interfaces d
 - [Estructura del Proyecto](#estructura-del-proyecto)
 - [Primeros Pasos](#primeros-pasos)
 - [Flujo de Desarrollo](#flujo-de-desarrollo)
+- [Auto-imports (WXT)](#auto-imports-wxt)
 - [Características Clave](#características-clave)
 - [Configuración de VS Code para IntelliSense de Tailwind](#configuración-de-vs-code-para-intellisense-de-tailwind)
 
@@ -195,6 +196,10 @@ webExt: {
 5. **Refrescar página** (F5 en Pixels.xyz)
 
 > **Nota:** Usa tu perfil regular de Chrome para mantener acceso a otras extensiones como Ronin Wallet para probar funcionalidades autenticadas.
+
+## Auto-imports (WXT)
+
+WXT permite auto-importar hooks, componentes y otros símbolos — ver https://wxt.dev/guide/essentials/config/auto-imports?utm_source=chatgpt.com. Para evitar "código mágico" y mantener la claridad del código, este proyecto exige importaciones explícitas; los pull requests deben incluir las importaciones explícitas para los hooks/componentes utilizados.
 
 ## Características Clave
 

@@ -1,15 +1,13 @@
-/**
- * LogoGumix Component - Reusable brand logo with hover effect
- * @author AzanoRivers | VibeCoding with Claude Sonnet 4.5
- */
 import gumixLogo from '@/assets/gumix-logo.svg';
 import './LogoGumix.css';
-
 interface LogoProps {
     size?: number;
     href?: string;
 }
-
+/**
+ * LogoGumix Component - Reusable brand logo with hover effect
+ * @author AzanoRivers | VibeCoding with Claude Sonnet 4.5
+ */
 export function LogoGumix({ size = 64, href = 'https://github.com/AzanoRivers/gumix' }: LogoProps) {
     return (
         <div className="flex items-center justify-center" style={{ width: size, height: size }}>

@@ -1,8 +1,7 @@
 /**
  * Footer Component - Reusable footer section for the extension
- * @author AzanoRivers | manually created
+ * @author AzanoRivers | Manually created
  */
-
 export function Footer() {
     return (
         <>
