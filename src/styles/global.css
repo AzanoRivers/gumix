@@ -1,5 +1,5 @@
 @import "tailwindcss";
-@import "@/styles/constants.css";
+@import "./constants.css";
 
 @theme {
   /* Custom Tailwind 4 configuration */
