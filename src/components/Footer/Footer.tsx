@@ -12,7 +12,7 @@ export function Footer() {
                     AzanoRivers
                 </a>
             </article>
-            <article className="w-full h-full text-end text-xs pb-1">
+            <article className="w-full h-full text-end text-xs">
                 <span className="text-gumpix-pink dark:text-gumpix-pink-light">Supported by</span>
                 <a className="text-sm font-semibold pl-1 text-gumpix-blue" href="https://www.pixigummies.com" target="_blank" rel="noopener noreferrer">
                     PixiGummies Project

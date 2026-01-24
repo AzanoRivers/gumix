@@ -23,6 +23,7 @@ Una plantilla minimalista de extensión de navegador para construir interfaces d
 - [Primeros Pasos](#primeros-pasos)
 - [Flujo de Desarrollo](#flujo-de-desarrollo)
 - [Características Clave](#características-clave)
+- [Configuración de VS Code para IntelliSense de Tailwind](#configuración-de-vs-code-para-intellisense-de-tailwind)
 
 ## Estrategia de Ramas
 
@@ -204,6 +205,28 @@ webExt: {
 - ✅ **Framework WXT** para scaffolding de extensiones
 - ✅ **Arquitectura modular** para escalabilidad
 - ✅ **Librería de componentes compartidos** entre contextos
+
+## Configuración de VS Code para IntelliSense de Tailwind
+
+Para habilitar autocompletado de clases personalizadas definidas en `@theme`, crea `.vscode/settings.json`:
+
+```json
+{
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+  "tailwindCSS.includeLanguages": {
+    "typescript": "javascript",
+    "typescriptreact": "javascript"
+  },
+  "tailwindCSS.experimental.configFile": "src/styles/global.css",
+  "files.associations": {
+    "*.css": "tailwindcss"
+  }
+}
+```
+
+Después de guardar, reinicia el servidor de Tailwind CSS: `Ctrl+Shift+P` → **"Tailwind CSS: Restart Tailwind CSS Language Server"**
 
 ---
 
